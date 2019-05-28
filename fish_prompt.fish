@@ -166,3 +166,9 @@ function fish_prompt
   set_color normal
   set_color -b normal
 end
+
+
+function fish_right_prompt -d "Display semi readable time on the right side, so I know when I executed something"
+  set_color $fish_color_autosuggestion[1]
+  echo -n -s (date +"%H:%M:%S")
+end
