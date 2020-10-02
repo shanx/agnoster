@@ -73,7 +73,7 @@ function agnoster::virtualenv -d "Display current virtualenv"
   if set -q VIRTUAL_ENV
     set -l python_version (eval $VIRTUAL_ENV/bin/python -V 2>&1 | cut -f 2 -d ' ')
     set -l virtualenv_name (command basename $VIRTUAL_ENV)
-    agnoster::segment grey black "\ue606 $virtualenv_name ($python_version) "
+    agnoster::segment grey black " $virtualenv_name ($python_version) "
   end
 end
 
