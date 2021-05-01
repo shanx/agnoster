@@ -1,3 +1,5 @@
+This is my personal tweaked version of hauleth/agnoster made to work with fisher 4 (use: fisher install shanx/agnoster to install)
+
 # Fish Agnoster theme
 
 Fancy, colorful theme with support for Powerline fonts.
